@@ -91,8 +91,8 @@ public class RestAuthController {
                 break;
             case "gitee":
                 authRequest = new AuthGiteeRequest(AuthConfig.builder()
-                        .clientId("")
-                        .clientSecret("")
+                        .clientId("528d96eee0f5bdf0d863a99eb29199e93dac76180dacb2b5a41d5ba443ee5d32")
+                        .clientSecret("#修改为输入自己的密钥#")
                         .redirectUri("http://127.0.0.1:8443/oauth/callback/gitee")
                         .build());
                 break;
